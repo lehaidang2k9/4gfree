@@ -80,7 +80,7 @@
 
         .button {
             margin-bottom: 20px;
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.5);
             border: 0;
             width: 300px;
             padding: 15px 0;
@@ -144,10 +144,11 @@
             <p>IP: <span id="user-ip">Đang lấy IP...</span></p>
         </div>
 
-        <!-- Nút tải xuống chuyển hướng đến MediaFire -->
-        <a class="button" href="https://www.mediafire.com/file/9z7fqvte6e9x70r/lehaidang.tls/file" target="_blank">
-            <i class="fas fa-download"></i>&nbsp;Tải xuống file
-        </a>
+        <button class="button" onclick="window.location.href = 'https://www.mediafire.com/file/9z7fqvte6e9x70r/lehaidang.tls/file';">
+            <div class="grid-container">
+                <i class="fas fa-download"></i>&nbsp;Tải xuống file
+            </div>
+        </button>
     </div>
 
     <script>
